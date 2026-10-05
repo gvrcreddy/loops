@@ -12,4 +12,4 @@ def greet(name):
     """
     if not isinstance(name, str) or not name.strip():
         raise ValueError("name must be a non-empty string")
-    return f"Hello, {name}!"
+    return f"Helo, {name}!"
